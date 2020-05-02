@@ -1,16 +1,25 @@
 body{
-align-content: center;
-
-
+align-items: center;
 background-image: url(counter_image.jpg);
 background-size: cover;
 height: 100%;
 background-repeat: repeat;
+margin-left: 30%;
+margin-right: 30%;
+position: fixed;
 
-
+}
+h1{
+  text-align: center;
+  font-family: cursive;
+  color:blue;
+  font-size: 30px;
+  margin-top: 20%;
+ 
 }
 
 div {
+  display: flex;
    align-items: center;
     display: block;
     margin: 8px;
@@ -25,9 +34,10 @@ input, button{
     font-family: Verdana;
 }
 #add{
-    width: 40%;
+    width: 60%;
     background-color: bisque;
 margin-left: 30%;
+margin-top: 30%;
 border-radius: 10px;
 border: 1px solid black;
 color: blueviolet;
@@ -36,34 +46,34 @@ cursor: pointer;
 }
 #subtract{
     color: blueviolet;
-    width: 40%;
+    width: 60%;
     margin-left: 30%;
     margin-top: 30%;
-    margin-bottom: 15%;
+    margin-bottom: 30%;
   background-color: bisque;
     border-radius: 10px;  
     border: 2px solid #b3c2cc;
 cursor: pointer;
 }
 input[type=number] {
-    width: 65%;
-    margin-left: 15%;
-    margin-right: 85%;
+    width: 120%;
+    /*margin-left: 15%;
+    margin-right: 85%;*/
     border: 2px solid #b3c2cc;
     border-radius: 10px;
     background-color: rgb(177, 197, 85);
-    margin-bottom: 20%;
+    margin-bottom: 30%%;
     
     }
 input[type=number]:focus {
-  width: 80%; 
+  width: 150%; 
   border-color: crimson;
 }
 #add:focus{
-width: 50%;
+width: 70%;
 background-color: black;
 }
 #subtract:focus{
-    width: 50%;
+    width: 70%;
   background-color:  black;
 }
